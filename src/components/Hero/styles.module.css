@@ -1,0 +1,37 @@
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.hero img {
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 39pt;
+    color: var(--ifm-color-primary);
+}
+
+.hero p {
+    font-size: 25pt;
+    padding-bottom: 50px;
+}
+
+.hero a {
+    font-size: 20pt;
+    background-color: var(--ifm-color-primary);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.hero a:hover {
+    filter: opacity(0.8);
+    color: black;
+    text-decoration: none;
+}
